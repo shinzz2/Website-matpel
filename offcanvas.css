@@ -32,6 +32,7 @@ body {
   z-index: 2;
   height: 2.75rem;
   overflow-y: hidden;
+  color: aqua;
 }
 
 .nav-scroller .nav {
@@ -40,7 +41,7 @@ body {
   padding-bottom: 1rem;
   margin-top: -1px;
   overflow-x: auto;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(136, 136, 136, 0.75);
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
@@ -63,5 +64,5 @@ body {
 }
 
 .bg-purple {
-  background-color: #6f42c1;
+  background-color: #424046;
 }
