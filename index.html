@@ -79,7 +79,7 @@
         </div>
       </div>
     <!-- Button trigger modal -->
-    <button type="button"class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <button type="button"class="btn btn-dark" id="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
       PENCET</button>
       
       <!-- Modal -->
@@ -101,6 +101,12 @@
           </div>
         </div>
       </div>
+      <script type="text/javascript">
+$('#btn').on('click', function() {
+  $('#exampleModal').modal('show');
+
+});
+      </script>
             <!--modal-->
       <div class="my-3 p-3 bg-body rounded shadow-sm">
         <h6 class="border-bottom pb-100 mb-100">Mata Pelajaran</h6>
