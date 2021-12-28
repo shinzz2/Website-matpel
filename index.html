@@ -54,6 +54,9 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#Dashboard">Dashboard</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#FAQ">FAQ</a>
+            </li>
             <a class="nav-link" href="https://smppgii1.sch.id/android/dist/index.php">SMP PGII 1 BANDUNG</a>
             <a class="nav-link" href="https://www.ujian.yppgiibandung.org/auth/login">WEB UJIAN SMP PGII 1</a>
             <a class="nav-link" href="https://pjjsmp.yppgiibandung.org/">WEB PJJ SMP PGII 1</a>
@@ -65,7 +68,8 @@
     <section id="Dashboard">
 
     <div class="nav-scroller bg-body shadow-sm fixed-top">
-      <nav class="nav nav-underline" aria-label="Secondary navigation">        
+      <nav class="nav nav-underline" aria-label="Secondary navigation">
+        <a class="nav-link" href="#FAQ">FAQ</a>        
         <a class="nav-link" href="https://smppgii1.sch.id/android/dist/index.php">SMP PGII 1 BANDUNG</a>
             <a class="nav-link" href="https://www.instagram.com/dapinnn.nn/">Instagram(gw)</a>
     </div>
@@ -78,7 +82,12 @@
           <small>Semester 2</small>
         </div>
       </div>
-      <div class="w3-container mb-6">
+       <!--progres-->
+       <div class="progress mb-3">
+        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Progress Web 80% guyss :))))) </div>
+      </div>
+      <!--progres web-->
+      <div class="w3-container mb-2">
         <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black mb-3">Pencet Akuu!</button>
         
         <div id="id01" class="w3-modal">
@@ -125,18 +134,7 @@
           evt.currentTarget.classList.add("w3-light-grey");
         }
         </script>
-         
-      <div class="alert alert-dark" role="alert">
-        <h4 class="alert-heading">Brainly nya PGII?</h4>
-        <p>Jadi di website ini aku Berniat masukin Materi,Rangkuman,Soal dan bahkan Jawaban 13 Mata pelajaran Kelas 9 loh!</p>
-        <hr>
-        <p class="mb-0">Doa'in aja bakal konsisten gw nya wkwkkwwk. kalian juga bisa bantu, coba pencet tombol di atas.</p>
-      </div>
-      <!--progres-->
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Progress Web 80% guyss :))))) </div>
-      </div>
-      <!--progres web-->
+    
             <!--modal-->
             
       <div class="my-3 p-3 bg-body rounded shadow-sm">
@@ -238,15 +236,17 @@
   
       <div class="my-3 p-3 bg-body rounded shadow-sm">
         <div class="d-flex text-dark pt-10">
-          <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <p class="pb-3 mb-0 small lh-sm border-bottom mb-5">
             <img class="me-3" src="IMG.JPG/TIK.jpg" alt="" width="60" height="40">
             <a class="nav-link d-block text-gray-dark pb-50" href="tik.html">Komputer</a>
             klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
           </p>
         </div>
       <!-- acrordiadkwnefdawfugbes-->
+      <section id="FAQ">
+
       <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
+        <div class="accordion-item mb-3 mt-10">
           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
              Bang ini tuh website apa?
@@ -254,10 +254,23 @@
           </h2>
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
-              Jadi ini adalah website Rangkuman Mata pelajaran Kelas 9 Semester 2. setiap ada tugas gw bakal secepat mungkin buat rangkum dan nulis jawaban di website ini.
+              Jadi ini adalah website Rangkuman Mata pelajaran Kelas 9 Semester 2. setiap ada Materi,Tugas gw bakal secepat mungkin buat rangkum dan nulis jawaban di website ini.
             </div>
           </div>
         </div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Apakah Pihak Guru di PGII sudah tahu/mengetahui website ini?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                untuk sekarang belom.
+              </div>
+            </div>
+          </div>
       <!--akhir accorrrdion-->
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -265,7 +278,6 @@
     <!--Footer-->
     <footer class="footer mt-auto py-3 bg-light">
       <div class="container">
-        <span class="text-dark">Website ini di buat oleh dapin 9f.</span>
       </div>
     </footer>
     <!--FOOTER-->
