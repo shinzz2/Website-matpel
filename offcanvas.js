@@ -12,3 +12,7 @@ var myInput = document.getElementById("myInput");
 myModal.addEventListener("shown.bs.modal", function () {
   myInput.focus();
 });
+
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: "#navbar-example",
+});
