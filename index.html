@@ -1,318 +1,252 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
-    <meta name="generator" content="Hugo 0.88.1" />
-    <title>Mata Pelajaran</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/offcanvas-navbar/" />
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<!-- CSS only -->
-<link rel="stylesheet" href="style.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="/Website-matpel/css/offcanvas.css" />
-    <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <!--Fotter-->
-    <!--footer-->
-    <!-- Bootstrap core CSS -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>MataPelajaran</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    <!-- Custom styles for this template -->
-    <link href="offcanvas.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="WebbTools.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#23252F" />
+    <meta name="msapplication-TileImage" content="img/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="img/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="img/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="img/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="img/mstile-310x310.png" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   </head>
-  <body class="bg-light">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
-      <div class="container">
-        <a class="navbar-brand" href="#">Rangkuman Pembelajaran</a>
-        <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#Dashboard">Dashboard</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#FAQ">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Verifikasi.html">Verifikasi Tugas</a>
-            </li>
-            <a class="nav-link" href="https://saweria.co/dapinButuhDuit">Donate Saya!</a>
-
-            <a class="nav-link" href="https://smppgii1.sch.id/android/dist/index.php">SMP PGII 1 Bandung</a>
-            <a class="nav-link" href="https://www.ujian.yppgiibandung.org/auth/login">Web Ujian SMP PGII 1</a>
-            <a class="nav-link" href="https://pjjsmp.yppgiibandung.org/">Web PJJ SMP PGII 1</a>
-            <li class="nav-item">
-              <a class="nav-link" href="https://discord.gg/QdAFAhk8MN">Discord</a>
-            </li>
-
-    </nav>
-    <section id="Dashboard">
-
-    <div class="nav-scroller bg-body shadow-sm fixed-top">
-      <nav class="nav nav-underline" aria-label="Secondary navigation">
-        <a class="nav-link" href="#FAQ">FAQ</a>        
-        <a class="nav-link" href="Verifikasi.html">Verifikasi Tugas</a>
-        <a class="nav-link" href="https://saweria.co/dapinButuhDuit">Donate Saya!</a>
-        <a class="nav-link" href="https://smppgii1.sch.id/android/dist/index.php">SMP PGII 1 BANDUNG</a>
-            <a class="nav-link" href="https://www.instagram.com/dapinnn.nn/">Instagram(gw)</a>
+  <body>
+    <!-- loading -->
+    <div id="spinner-box">
+      <div class="pulse-container">
+        <div class="pulse-bubble pulse-bubble-1"></div>
+        <div class="pulse-bubble pulse-bubble-2"></div>
+        <div class="pulse-bubble pulse-bubble-3"></div>
+      </div>
     </div>
 
-    <main class="container">
-      <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
-        <img class="me-3" src="IMG.JPG/LOGO PGII.jpg" alt="" width="48" height="38" />
-        <div class="lh-1">
-          <h1 class="h6 mb-0 text-white lh-1">Rangkuman Pelajaran Kelas 9</h1>
-          <small>Semester 2</small>
-        </div>
-      </div>
-       <!--progres-->
-       <div class="progress mb-3">
-        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Progress Web 80% guyss :))))) </div>
-      </div>
-      <!--progres web-->
-      <div class="w3-container mb-2">
-        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black mb-3">Pencet Akuu!</button>
-        
-        <div id="id01" class="w3-modal">
-         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
-          <header class="w3-container w3-white"> 
-           <span onclick="document.getElementById('id01').style.display='none'" 
-           ></span>
-           <h2>Bantu saya</h2>
-          </header>
-        
-          <div class="w3-bar w3-border-bottom mb-1">
-          </div>        
-          <div id="London" class="w3-container city">
-           <h1>Membantu?</h1>
-           <p>Kamu bisa bantu saya memberikan Materi,Soal, dan Rangkuman mata pelajaran untuk nanti nya di uploud ke dalam situs ini dan tentu banyak orang di Kelas 9 akan berterimakasih kepada mu. 1 paragraf dari hal tersebut sangat berarti buat saya :)</p>
-           <p>Kontak ke instagram saya</p>
-           <a class="" href="https://www.instagram.com/dapinnn.nn/">Instagram</a>
+    <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background: #23252f" data-aos="fade" data-aos-duration="100" data-aos-once="false">
+        <div class="container">
+          <a class="navbar-brand" style="color: #ff7300;">Belajar<span>Bang</span></a>
+          <div id="nav-icon1" class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
           </div>
-          <div class="w3-container w3-light-grey w3-padding">
-           <button class="w3-button w3-right w3-red w3-border" 
-           onclick="document.getElementById('id01').style.display='none'">gmau</button>
-           <button class="w3-button w3-right w3-green w3-border" 
-           onclick="document.getElementById('id01').style.display='none'">okeeee</button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link more thin-text" href="#home">Home &nbsp;&nbsp;</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link more thin-text" href="#explore">Explore &nbsp;&nbsp;</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link more thin-text" href="#footer">About &nbsp;&nbsp;</a>
+              </li>
+            </ul>
           </div>
-         </div>
-         
         </div>
-        </div>
-        
-        <script>
-        document.getElementsByClassName("tablink")[0].click();
-        
-        function openCity(evt, cityName) {
-          var i, x, tablinks;
-          x = document.getElementsByClassName("city");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablink");
-          for (i = 0; i < x.length; i++) {
-            tablinks[i].classList.remove("w3-light-grey");
-          }
-          document.getElementById(cityName).style.display = "block";
-          evt.currentTarget.classList.add("w3-light-grey");
-        }
-        </script>
-    
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-Pencet lgi</button>
+      </nav>
+    <!-- akhir navbar -->
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Gw ga di bayar</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-       Buat temen-temen Sekolah, Kagak usah protes dah tampilan web nya jelek. gw bikin ini aja ga ada yang bayar. Ribut ma gw aja
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-            <!--modal-->
-          <!--mode gelap-->
-      <div class="my-3 p-3 bg-body rounded shadow-sm">
-        <h6 class="border-bottom pb-100 mb-100">Mata Pelajaran</h6>
-        <div class="d-flex text-dark pt-10">
-          
-          <p class="pb-3 mb-0 small lh-sm border-bottom">
-            <img class="me-3" src="IMG.JPG/PAI2.jpg" alt="" width="60" height="40">
-            <a class="nav-link d-block text-dark-dark pb-2" href="PAI.html">Pendidikan Agama dan Budi Pakerti</a>
-             klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-          </p>
-        </div>
-        <p class="pb-3 mb-0 small lh-sm border-bottom">
-          <img class="me-3" src="IMG.JPG/PKN.jpg" alt="" width="60" height="40">
-          <a class="nav-link d-block text-gray-dark pb-2" href="ppkn.html">
-            Pendidikan Pancasila dan Kewarganegaraan</a>
-            klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-        </p>
-      </div>
-     
-      <div class="my-3 p-3 bg-body rounded shadow-sm">
-        <div class="d-flex text-dark pt-10">
-          <p class="pb-3 mb-0 small lh-sm border-bottom">
-            <img class="me-3" src="IMG.JPG/indooo.png" alt="" width="60" height="40">
-            <a class="nav-link d-block text-gray-dark pb-50" href="indo.html">Bahasa Indonesia</a>
-              klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-          </p>
-        </div>
-        <p class="pb-3 mb-0 small lh-sm border-bottom">
-          <img class="me-3" src="IMG.JPG/mtk.jpg" alt="" width="60" height="40">
-          <a class="nav-link d-block text-gray-dark pb-2" href="mtk.html">
-           Matematika</a>
-            klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-        </p>
-      </div>
-      <div class="my-3 p-3 bg-body rounded shadow-sm">
-        <div class="d-flex text-dark pt-10">
-          <p class="pb-3 mb-0 small lh-sm border-bottom">
-            <img class="me-3" src="IMG.JPG/images.jpg" alt="" width="60" height="40">
-            <a class="nav-link d-block text-gray-dark pb-50" href="ipa.html">Ilmu Pengetahuan Alam</a>
-              klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-          </p>
-        </div>
-        <p class="pb-3 mb-0 small lh-sm border-bottom">
-          <img class="me-3" src="IMG.JPG/ips.png" alt="" width="60" height="40">
-          <a class="nav-link d-block text-gray-dark pb-2" href="ips.html">
-           Ilmu Pengetahuan Sosial</a>
-            klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-        </p>
-      </div>
-      
-      <div class="my-3 p-3 bg-body rounded shadow-sm">
-        <div class="d-flex text-dark pt-10">
-          <p class="pb-3 mb-0 small lh-sm border-bottom">
-            <img class="me-3" src="IMG.JPG/eng.jpg" alt="" width="60" height="40">
-            <a class="nav-link d-block text-gray-dark pb-50" href="inggris.html">Bahasa Inggris</a>
-              klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-          </p>
-        </div>
-        <p class="pb-3 mb-0 small lh-sm border-bottom">
-          <img class="me-3" src="IMG.JPG/Seni-Budaya-638x400.jpg" alt="" width="60" height="40">
-          <a class="nav-link d-block text-gray-dark pb-2" href="senbud.html">
-            Seni Budaya</a>
-            klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-        </p>
-      </div>
-      
-      <div class="my-3 p-3 bg-body rounded shadow-sm">
-        <div class="d-flex text-dark pt-10">
-          <p class="pb-3 mb-0 small lh-sm border-bottom">
-            <img class="me-3" src="IMG.JPG/PJOK.jpg" alt="" width="60" height="40">
-            <a class="nav-link d-block text-gray-dark pb-50" href="pjok.html">pendidikan jasmani, olahraga, dan kesehatan</a>
-              klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-          </p>
-        </div>
-        <p class="pb-3 mb-0 small lh-sm border-bottom">
-          <img class="me-3" src="IMG.JPG/pRAKARYA.jpg" alt="" width="60" height="40">
-          <a class="nav-link d-block text-gray-dark pb-2" href="Prakarya.html">
-            Prakarya</a>
-            klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-        </p>
-      </div>
-  
-      <div class="my-3 p-3 bg-body rounded shadow-sm">
-        <div class="d-flex text-dark pt-10">
-          <p class="pb-3 mb-0 small lh-sm border-bottom">
-            <img class="me-3" src="IMG.JPG/sunda.jpg" alt="" width="60" height="40">
-            <a class="nav-link d-block text-gray-dark pb-50" href="sunda.html">Bahasa sunda</a>
-              klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-          </p>
-        </div>
-        <p class="pb-3 mb-0 small lh-sm border-bottom">
-          <img class="me-3" src="IMG.JPG/arabic.jpg" alt="" width="60" height="40">
-          <a class="nav-link d-block text-gray-dark pb-2" href="Arab.html">
-            Bahasa Arab</a>
-            klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-        </p>
-      </div>
-  
-      <div class="my-3 p-3 bg-body rounded shadow-sm">
-        <div class="d-flex text-dark pt-10">
-          <p class="pb-3 mb-0 small lh-sm border-bottom mb-5">
-            <img class="me-3" src="IMG.JPG/TIK.jpg" alt="" width="60" height="40">
-            <a class="nav-link d-block text-gray-dark pb-50" href="tik.html">Komputer</a>
-            klik link diatas untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
-          </p>
-        </div>
-      <!-- acrordiadkwnefdawfugbes-->
-      <section id="FAQ">
-
-      <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item mb-3 mt-10">
-          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-             Bang ini tuh website apa?
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-            <div class="accordion-body">
-              Jadi ini adalah website Rangkuman Mata pelajaran Kelas 9 Semester 2. setiap ada Materi,Tugas gw bakal secepat mungkin buat rangkum dan nulis jawaban di website ini.
+    <!-- content -->
+    <section class="background" style="background-color: #23252f; padding-bottom: 8rem">
+      <div class="container" id="home">
+        <div class="row" style="margin-top: 70px">
+          <div class="col-xl-11 gambar">
+            <div class="hide"></div>
+          </div>
+          <div class="col-xl-12 position-relative p-4">
+            <div class="position-absolute top-0 end-0">
+              <div class="hide"></div>
             </div>
-          </div>
-        </div>
-        <div class="accordion" id="accordionPanelsStayOpenExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              Apakah Pihak Guru di PGII sudah mengetahui website ini?
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-              <div class="accordion-body">
-                untuk sekarang belom.
+            <div class="content">
+              <div class="row">
+                <div class="hide">
+                  <div class="col-xl-12">
+                    <h1 class="header">Sebuah Website</h1>
+                    <h1 class="header">Rangkuman Tugas</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="hide">
+                <div class="desc">
+                  <p>Singkat saja, Saya akan Sebisa mungkin uploud Semua Materi,Soal,dan Jawaban 13 Mata pelajaran kedalam Web ini.</p>
+                </div>
+              </div>
+              <div class="hide">
+  
+                </div>
               </div>
             </div>
           </div>
-          
-      <!--akhir accorrrdion-->
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="offcanvas.js"></script>
-    <!--Footer-->
-    <footer class="footer mt-auto py-3 bg-light">
-      <div class="container">
+        </div>
       </div>
-    </footer>
-    <!--FOOTER-->
+    </section>
+    <!-- akhir konten -->
+
+    <!-- Explore -->
+    <div class="container" id="explore">
+      <h2 class="category text-center"><span style="color: #ffffff">Mata</span> Pelajaran</h2>
+      <div class="carousel owl-carousel">
+        <div class="card border-0" style="background-color: #2b2d37">
+          <a href="Indo.html">
+            <div class="hide">
+              <img src="IMG.JPG/indooo.png" alt="" srcset="" />
+            </div>
+            <div class="hide">
+              <div class="card-body">
+                <h4>Bahasa Indonesia<i class="bi bi-caret-right"></i></h4>
+                <p class="title">silihkan klik layar Anda untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card border-0" style="background-color: #2b2d37">
+          <a href="Font-and-icon.html">
+            <img src="IMG.JPG/PAI2.jpg" alt="" srcset="" />
+            <div class="card-body">
+              <h4>Pendidikan Agama Dan Budi Pekerti <i class="bi bi-caret-right"></i></h4>
+              <p class="title">silihkan klik layar Anda untuk mendapatkan materi,Rangkuman bahkan jawaban dari Mata pelajaran tersebut!</p>
+            </div>
+          </a>
+        </div>
+      <!-- <div class="container justify-content- text-end">
+        <button class="see-all" style="border-radius: 10px">
+          <a href="" class="see-all-2">See All <i class="bi bi-arrow-right"></i> </a>
+        </button>
+      </div> -->
+    </div>
+    <!-- Akhir Explore -->
+
+    <!-- footer -->
+    <div class="background" style="background-color: #23252f; padding: 100px 0">
+      <div class="container text-center footer" id="footer">
+        <p class="copyright">© 2021 WebbTools. All rights reserved | Created by Raya Alkautsar</p>
+        <p class="license">Online illustrations by <a href="https://storyset.com/online" class="license-2" target="blank" style="margin-top: -50px">Storyset</a></p>
+        <a href="https://www.instagram.com/r.alkautsarr/"><i class="bi bi-instagram" target="blank"></i></a>
+        <a target="blank"><i class="bi bi-youtube"></i></a>
+        <a target="blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://github.com/RayaAlkautsar" target="blank"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+    <!-- akhir footer -->
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script>
+      $(".carousel").owlCarousel({
+        margin: 100,
+        // autoplay: false,
+        // autoplayTimeout: 6000,
+        // autoplayHoverPause: false,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false,
+          },
+          760: {
+            items: 2,
+            nav: false,
+          },
+          1000: {
+            items: 3,
+            nav: false,
+          },
+        },
+      });
+    </script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- type effect
+    <script>
+      const typedTextSpan = document.querySelector(".typed-text");
+      const cursorSpan = document.querySelector(".cursor");
+
+      const textArray = ["faster", "it easier"];
+      const typingDelay = 100;
+      const erasingDelay = 100;
+      const newTextDelay = 4000; // Delay between current and next text
+      let textArrayIndex = 0;
+      let charIndex = 0;
+
+      function type() {
+        if (charIndex < textArray[textArrayIndex].length) {
+          if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+          typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+          charIndex++;
+          setTimeout(type, typingDelay);
+        } else {
+          cursorSpan.classList.remove("typing");
+          setTimeout(erase, newTextDelay);
+        }
+      }
+
+      function erase() {
+        if (charIndex > 0) {
+          if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+          typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+          charIndex--;
+          setTimeout(erase, erasingDelay);
+        } else {
+          cursorSpan.classList.remove("typing");
+          textArrayIndex++;
+          if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+          setTimeout(type, typingDelay + 1100);
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // On DOM Load initiate the effect
+        if (textArray.length) setTimeout(type, newTextDelay + 250);
+      });
+    </script> -->
+
+    <!-- script animation menu -->
+    <script>
+      $(document).ready(function () {
+        $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").click(function () {
+          $(this).toggleClass("open");
+        });
+      });
+    </script>
+
+    <!-- script loading -->
+    <script>
+      var loading = document.getElementById("spinner-box");
+
+      window.addEventListener("load", function () {
+        loading.style.display = "none";
+      });
+    </script>
   </body>
 </html>
