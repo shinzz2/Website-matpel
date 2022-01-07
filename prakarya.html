@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>MataPelajaran</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="WebbTools-Image.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="img/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="img/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="img/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="img/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="img/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="img/mstile-310x310.png" />
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+
+<body>
+
+  <!-- loading -->
+  <div id="spinner-box">
+    <div class="pulse-container">
+      <div class="pulse-bubble pulse-bubble-1"></div>
+      <div class="pulse-bubble pulse-bubble-2"></div>
+      <div class="pulse-bubble pulse-bubble-3"></div>
+    </div>
+  </div>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background: #23252f" data-aos="fade"
+    data-aos-duration="100" data-aos-once="true">
+    <div class="container">
+      <a class="navbar-brand" style="color: #ff7300;">Belajar<span>Bang</span></a>
+      <div id="nav-icon1" class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link more thin-text"
+              href="index.html">Home &nbsp;&nbsp;</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle thin-text" href="" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              LKS
+            </a>
+            <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#LKS234">hal-234</a></li>
+              <li><a class="dropdown-item" href="#LKS123">hal-123</a></li>
+              <li><a class="dropdown-item" href="#LKS49">hal-49</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle thin-text" href="" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Soal
+            </a>
+            <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item"
+                  href="#CONTOH1">Contoh Soal-1</a>
+              </li>
+              <li><a class="dropdown-item"
+                  href="#CONTOH2">Contoh soal-2</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle thin-text" href="" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Rangkuman
+            </a>
+            <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item"
+                  href="#RangkumanA">Rangkuman A</a></li>
+              <li><a class="dropdown-item"
+                  href="#RangkumanB">Rangkuman B</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- akhir navbar -->
+
+  <div class="background" style="background-color: #23252f; padding-top: 3rem; padding-bottom: 5rem;">
+    <div class="container justify-content-center text-center" style="margin-top: 180px; margin-bottom: 50px;">
+      <div class="hide">
+        <div class="header-banner" data-aos="slide-up" data-aos-duration="500" data-aos-once="true">
+          <h1 class="header">Temukan Kebutuhan Belajar mu!</h1>
+          <p>Kamu bisa Melihat Lks,Soal,Rangkuman Tugas Beserta jawabannya.</p>
+        </div>        
+      </div>
+    </div> 
+  </div>
+  <div class="container" id="explore">
+    <h2 class="category text-center"><span style="color: #ffffff">Prakarya</h2>
+          </div>
+
+  <div class="container slide" id="LKS234">
+    <div class="favorit">
+      <div class="text-start">
+        <p class="part" style="color: white">LKS</i></p>
+      </div>
+    </div>
+ 
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+LKS HAL 234</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Jawaban LKS Hal 234</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+     <!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corporis expedita voluptatum quia tempore! Autem repellendus minima, est quis tempore iure nemo mollitia! Laboriosam vero necessitatibus maiores possimus. Reprehenderit, distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At sunt explicabo qui quae molestiae facere a consectetur omnis, et cupiditate optio dicta, deleniti ex laborum, temporibus nostrum soluta iste iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laboriosam earum praesentium velit cumque inventore corporis debitis explicabo molestiae possimus doloremque impedit eius optio veniam, rem expedita totam facilis tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores eum dicta. Dolorum esse doloribus enim possimus alias. Animi at eos facere unde quas numquam repudiandae id fuga velit ipsum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, reprehenderit possimus exercitationem necessitatibus at quo eaque velit odit adipisci voluptates inventore, quibusdam aut cumque quasi corrupti quas sequi illum accusamus.</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <h4 class="title"><a href="" target="blank">Jawaban LKS <i class="bi bi-caret-right"></i></a></h4>
+        <p class="desc">Pencet Tombol nya bang</p>
+      </div>
+
+      
+  <div class="container slide" id="LKS123">
+    <div class="favorit">
+      <div class="text-start">
+        <p class="part" style="color: white">LKS</i></p>
+      </div>
+    </div>
+
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+LKS HAL 123</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Jawaban LKS Hal 123</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+     <!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corporis expedita voluptatum quia tempore! Autem repellendus minima, est quis tempore iure nemo mollitia! Laboriosam vero necessitatibus maiores possimus. Reprehenderit, distinctio.</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <h4 class="title"><a href="" target="blank">Jawaban LKS <i class="bi bi-caret-right"></i></a></h4>
+        <p class="desc">Pencet Tombol nya bang</p>
+      </div>
+
+      
+  <div class="container slide" id="LKS49">
+    <div class="favorit">
+      <div class="text-start">
+        <p class="part" style="color: white">LKS</i></p>
+      </div>
+    </div>
+ 
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+LKS HAL 49</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <h5 class="modal-title" id="exampleModalLabel">Jawaban LKS Hal 49</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+     <!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corporis expedita voluptatum quia tempore! Autem repellendus minima, est quis tempore iure nemo mollitia! Laboriosam vero necessitatibus maiores possimus. Reprehenderit, distinctio.</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <h4 class="title"><a href="" target="blank">Jawaban LKS  <i class="bi bi-caret-right"></i></a></h4>
+        <p class="desc">Pencet Tombol nya bang</p>
+      </div>
+
+      
+  <div class="container slide" id="CONTOH1">
+    <div class="favorit">
+      <div class="text-start">
+        <p class="part" style="color: white">Contoh Soal-1</i></p>
+      </div>
+    </div>
+ 
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+Contoh Soal 1</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contoh soal 1</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+     <!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corporis expedita voluptatum quia tempore! Autem repellendus minima, est quis tempore iure nemo mollitia! Laboriosam vero necessitatibus maiores possimus. Reprehenderit, distinctio.</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <h4 class="title"><a href="" target="blank">Contoh Soal-1<i class="bi bi-caret-right"></i></a></h4>
+        <p class="desc">Pencet Tombol nya bang</p>
+      </div>
+      
+  <div class="container slide" id="CONTOH2">
+    <div class="favorit">
+      <div class="text-start">
+        <p class="part" style="color: white">Contoh Soal-2</i></p>
+      </div>
+    </div>
+ 
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+Contoh Soal-2</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contoh Soal-2</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+     <!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corporis expedita voluptatum quia tempore! Autem repellendus minima, est quis tempore iure nemo mollitia! Laboriosam vero necessitatibus maiores possimus. Reprehenderit, distinctio.</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <h4 class="title"><a href="" target="blank">Contoh Soal-2<i class="bi bi-caret-right"></i></a></h4>
+        <p class="desc">Pencet Tombol nya bang</p>
+      </div>
+
+      
+  <div class="container slide" id="RangkumanA">
+    <div class="favorit">
+      <div class="text-start">
+        <p class="part" style="color: white">Rangkuman A</i></p>
+      </div>
+    </div>
+ 
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+Rangkuman A</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Rangkuman A</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+     <!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corporis expedita voluptatum quia tempore! Autem repellendus minima, est quis tempore iure nemo mollitia! Laboriosam vero necessitatibus maiores possimus. Reprehenderit, distinctio.</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <h4 class="title"><a href="" target="blank">Rangkuman A<i class="bi bi-caret-right"></i></a></h4>
+        <p class="desc">Pencet Tombol nya bang</p>
+      </div>
+      
+  <div class="container slide" id="RangkumanB">
+    <div class="favorit">
+      <div class="text-start">
+        <p class="part" style="color: white">Rangkuman B</i></p>
+      </div>
+    </div>
+ 
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+Rangkuman B</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Rangkuman B</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+     <!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corporis expedita voluptatum quia tempore! Autem repellendus minima, est quis tempore iure nemo mollitia! Laboriosam vero necessitatibus maiores possimus. Reprehenderit, distinctio.</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <h4 class="title"><a href="" target="blank">Rangkuman B<i class="bi bi-caret-right"></i></a></h4>
+        <p class="desc">Pencet Tombol nya bang</p>
+      </div>
+      
+      
+
+  <!-- footer -->
+  <div class="background" style="background-color: #23252f; padding: 100px 0">
+    <div class="container text-cGo footer" id="footer">
+      <p class="copyright"></p>
+    
+    </div>
+  </div>
+  <!-- akhir footer -->
+
+  <!-- script carousel -->
+  <script>
+    $(".carousel").owlCarousel({
+      margin: 20,
+      loop: true,
+      // autoplay: true,
+      // autoplayTimeout: 6000,
+      // autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false,
+        },
+        600: {
+          items: 2,
+          nav: false,
+        },
+        1000: {
+          items: 3,
+          nav: false,
+        },
+      },
+    });
+  </script>
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+    
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- type effect -->
+  <script>
+    const typedTextSpan = document.querySelector(".typed-text");
+    const cursorSpan = document.querySelector(".cursor");
+
+    const textArray = ["will be faster", "becomes easier"];
+    const typingDelay = 100;
+    const erasingDelay = 100;
+    const newTextDelay = 2000; // Delay between current and next text
+    let textArrayIndex = 0;
+    let charIndex = 0;
+
+    function type() {
+      if (charIndex < textArray[textArrayIndex].length) {
+        if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+        typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, typingDelay);
+      } else {
+        cursorSpan.classList.remove("typing");
+        setTimeout(erase, newTextDelay);
+      }
+    }
+
+    function erase() {
+      if (charIndex > 0) {
+        if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+        typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(erase, erasingDelay);
+      } else {
+        cursorSpan.classList.remove("typing");
+        textArrayIndex++;
+        if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+        setTimeout(type, typingDelay + 1100);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      // On DOM Load initiate To effect
+      if (textArray.length) setTimeout(type, newTextDelay + 250);
+    });
+  </script>
+
+  <!-- script animation menu -->
+  <script>
+    $(document).ready(function () {
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function () {
+        $(this).toggleClass('open');
+      });
+    });
+  </script>
+
+  <!-- script loading -->
+  <script>
+    var loading = document.getElementById("spinner-box");
+
+window.addEventListener("load", function () {
+  loading.style.display = "none";
+});
+  </script>
+
+</body>
+
+</html>
