@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>MataPelajaran</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="WebbTools.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#23252F" />
+    <meta name="msapplication-TileImage" content="img/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="img/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="img/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="img/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="img/mstile-310x310.png" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  </head>
+
+  <body>
+    <!-- loading -->
+    <div id="spinner-box">
+      <div class="pulse-container">
+        <div class="pulse-bubble pulse-bubble-1"></div>
+        <div class="pulse-bubble pulse-bubble-2"></div>
+        <div class="pulse-bubble pulse-bubble-3"></div>
+      </div>
+    </div>
+
+    <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background: #23252f" data-aos="fade" data-aos-duration="100" data-aos-once="false">
+        <div class="container">
+          <a class="navbar-brand" style="color: #ff7300;">Belajar<span>Bang</span></a>
+          <div id="nav-icon1" class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link more thin-text" href="#home">Home &nbsp;&nbsp;</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link more thin-text" href="#explore">tutor &nbsp;&nbsp;</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- akhir navbar -->
+
+    <!-- content -->
+    <section class="background" style="background-color: #23252f; padding-bottom: 8rem">
+      <div class="container" id="home">
+        <div class="row" style="margin-top: 70px">
+          <div class="col-xl-11 gambar">
+            <div class="hide"></div>
+          </div>
+          <div class="col-xl-12 position-relative p-4">
+            <div class="position-absolute top-0 end-0">
+              <div class="hide"></div>
+            </div>
+            <div class="content">
+              <div class="row">
+                <div class="hide">
+                  <div class="col-xl-12 mb-5">
+                    <h1 class="header">Melihat Nilai?</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="hide">
+                <div class="desc">
+                  <p>Kalian tentu nya penasaran kan, Berapa Nilai ASLI kalian. Karena nilai yang ada di rapot hasilnya akan beda jauh sama nilai asli.  </p>
+                </div>
+              </div>
+              <div class="carousel owl-carousel">
+                <div class="card border-0" style="background-color: #2b2d37">
+                  <a href="https://www.ujian.yppgiibandung.org/api/ikut-ujian/index.json">
+                    
+                        <h4>Melihat Nilai<i class="bi bi-caret-left"></i></h4>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel owl-carousel">
+                    <div class="card border-10" style="background-color: #2b2d37">
+                      <a href="https://www.ujian.yppgiibandung.org/auth/login">
+                        
+                            <h4>Login Web ujian.<i class="bi bi-caret-left"></i></h4>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+    </section>
+    <!-- akhir konten -->
+        <div class="hide">
+          <img src="img/MSG ERROR PGII.png" alt="" srcset="" />
+        </div>
+        <div class="hide">
+          <div class="card-body">
+            <h4>Itu yang akan terjadi jika kalian belum login . silahkan login terlebih dahulu<i class="bi bi-caret-right"></i></h4>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="hide">
+        <img src="img/Nilai ujian.png" alt="" srcset="" />
+      </div>
+      <div class="hide">
+        <div class="card-body">
+          <h4>Nah setelah kalian login bisa kok di lihat nilai nya.<i class="bi bi-caret-right"></i></h4>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+                  <!-- <div class="container justify-content- text-end">
+        <button class="see-all" style="border-radius: 10px">
+          <a href="" class="see-all-2">See All <i class="bi bi-arrow-right"></i> </a>
+        </button>
+      </div> -->
+    <!-- Akhir Explore -->
+
+    <!-- footer -->
+    <div class="background" style="background-color: #23252f; padding: 100px 0">
+        <div class="container text-center footer" id="footer">
+        </div>
+      </div>
+      <!-- akhir footer -->
+  
+      <!-- bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  
+      <script>
+        $(".carousel").owlCarousel({
+          margin: 100,
+          // autoplay: false,
+          // autoplayTimeout: 6000,
+          // autoplayHoverPause: false,
+          responsive: {
+            0: {
+              items: 1,
+              nav: false,
+            },
+            760: {
+              items: 2,
+              nav: false,
+            },
+            1000: {
+              items: 3,
+              nav: false,
+            },
+          },
+        });
+      </script>
+  
+      <!-- aos -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  
+      <!-- type effect
+      <script>
+        const typedTextSpan = document.querySelector(".typed-text");
+        const cursorSpan = document.querySelector(".cursor");
+  
+        const textArray = ["faster", "it easier"];
+        const typingDelay = 100;
+        const erasingDelay = 100;
+        const newTextDelay = 4000; // Delay between current and next text
+        let textArrayIndex = 0;
+        let charIndex = 0;
+  
+        function type() {
+          if (charIndex < textArray[textArrayIndex].length) {
+            if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+            typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(type, typingDelay);
+          } else {
+            cursorSpan.classList.remove("typing");
+            setTimeout(erase, newTextDelay);
+          }
+        }
+  
+        function erase() {
+          if (charIndex > 0) {
+            if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+            typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(erase, erasingDelay);
+          } else {
+            cursorSpan.classList.remove("typing");
+            textArrayIndex++;
+            if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+            setTimeout(type, typingDelay + 1100);
+          }
+        }
+  
+        document.addEventListener("DOMContentLoaded", function () {
+          // On DOM Load initiate the effect
+          if (textArray.length) setTimeout(type, newTextDelay + 250);
+        });
+      </script> -->
+  
+      <!-- script animation menu -->
+      <script>
+        $(document).ready(function () {
+          $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").click(function () {
+            $(this).toggleClass("open");
+          });
+        });
+      </script>
+  
+      <!-- script loading -->
+      <script>
+        var loading = document.getElementById("spinner-box");
+  
+        window.addEventListener("load", function () {
+          loading.style.display = "none";
+        });
+      </script>
+    </body>
+  </html>
+  
